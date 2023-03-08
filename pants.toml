@@ -1,0 +1,13 @@
+# Copyright 2020 Pants project contributors.
+# Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+[GLOBAL]
+pants_version = "2.15.0"
+backend_packages.add = [
+  "pants.backend.experimental.go",
+  "pants.backend.experimental.python",
+]
+
+[golang]
+minimum_expected_version = "1.18"
+go_search_paths = ["/usr/local/go/bin/", "/usr/local/bin/", "/usr/local/opt/go@1.18/bin/", "/usr/bin/"]
