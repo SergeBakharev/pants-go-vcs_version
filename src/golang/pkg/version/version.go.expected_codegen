@@ -1,0 +1,2 @@
+package version
+const (VER_STRING = "1.2.3")
